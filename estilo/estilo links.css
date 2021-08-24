@@ -1,0 +1,56 @@
+
+#facebook:hover{
+
+color: springgreen;
+padding: 10 px;
+border: 2px solid rgba(0, 0, 0, 0.1);
+border-radius: 4px;
+background-color: rgba(0, 0, 0, 0.3);
+text-decoration: none;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+
+
+}
+
+#facebook:link{
+    color: red;
+    font-size: 50pt;
+}
+
+#facebook:active{
+
+    color: purple;
+}
+
+#facebook:visited{
+color: royalblue;
+}
+
+
+#Google:link{
+    color: red;
+    font-size: 50pt;
+    margin-left: 80px;
+}
+#Google:hover{
+
+    color: pink;
+    padding: 10 px;
+    border: 2px solid rgba(9, 33, 170, 0.705);
+    border-radius: 4px;
+    background-color: rgba(9, 33, 170, 0.705);
+    text-decoration: none;
+    box-shadow: 2px 2px 4px rgba(9, 33, 170, 0.459);
+}
+    
+    
+
+    #Google:active { /*Active quando clica no link*/
+    
+        color: rgb(15, 220, 247);
+    }
+    
+    #Google:visited{ /* visited é o tipo de formatação para quaando a pessoa visitar o site aplicar*/
+    color: rgb(235, 10, 10);
+}
+

@@ -1,0 +1,75 @@
+
+body {
+    background-color: aqua;
+}
+
+
+/*Comando para editar tags com atributo  id  no arquivo principal sendo que a palavra depois # sera o ID*/
+#paragrafo1 {
+    font-size: 20pt;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+
+/* Para para editar uma Classe onde o "." simboliza que é uma classe e palavra na frente é o nome da classe*/
+.format {
+
+    background-color: darkmagenta;
+    color: forestgreen;
+    /* COR DA FONTE*/
+    font-size: 23px;
+    /*TAMANHO DA FONTE*/
+    text-align: center;
+    /*ALINHAMENTO DO TEXTO*/
+
+}
+
+/*Os comandos em html e css são compostos em tag atributo e o valor*/
+
+/* P onde queremos editar. o :hover sera um efeito de quando o mouse passa por cima aplicara a formatação inserida dentro das chaves  */
+p:hover {
+    background-color: fuchsia;
+
+}
+
+
+/* o atributo border ser ve para colocar a borda a primeira é a largura da borda e o proximo é o tipo d aborda e em seguida a cor dela que pode ser representada em RGB,HSLe HEXADECIMAL, ou colocando o nome da cor*/
+
+#paragrafo06 {
+    background-image: linear-gradient(to right, red , blue);
+    border: 2px solid rgb(255, 255, 0);
+    /*COR EM HEXADECIMAL #*/
+    color: #FFF000;
+    
+
+    /*UNIVERSIDADE DO HACKER*/
+
+  
+}
+
+#jailson{
+    border: 2px solid red;
+    max-width: max-content; /* a tag max-width definine a largura maxima da borda, e o atributo max content significa que a borda vai ficar até onde vai o texto*/
+    font-size: 40px;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+background-color: hsl(10, 100%, 64%);
+    /* H - HUE (MATIZ) S - SATURATION(SATURAÇÃO) L -LUMINOSITY (LUMINOSIDADE) A - ALPHA (TRANSPARENCIA)*/
+    background-color: hsla(10, 100%, 100%, 0.5);
+    /*H - HUE (MATIZ) S - SATURATION(SATURAÇÃO) L -LUMINOSITY (LUMINOSIDADE) A - ALPHA (TRANSPARENCIA)*/
+
+      /* para colocar um efeito degrade*/
+
+      background-image: linear-gradient(to-right,#454545,#484848)
